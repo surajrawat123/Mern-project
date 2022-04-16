@@ -1,0 +1,17 @@
+
+.main{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.items{
+    width: 70%;
+    margin: 1% 0;
+}
+.form{
+    width: 20%;
+    margin: 1vh 0;
+    margin-right: 0;
+}

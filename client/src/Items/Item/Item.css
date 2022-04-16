@@ -1,0 +1,53 @@
+.card-box{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+    width: 35%;
+    padding: 1%;
+    padding-top: 0;
+    margin: 1%;
+}
+
+button{
+    border-width: 0;
+    margin-right: 3%;
+    padding: 1% 4%;
+    cursor: pointer;
+}
+
+.edit{
+    background: #10cc49;
+    color: white;
+}
+.edit:hover , .edit:active{
+    background-color: initial;
+    color: #10cc49;
+    border: 1px solid #10cc49;
+}
+
+.edit:active{
+    opacity: 0.5;
+}
+
+
+
+.delete{
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  outline: 0;
+  text-align: center;
+}
+
+.delete:hover,
+.delete:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.delete:active {
+  opacity: .5;
+}
